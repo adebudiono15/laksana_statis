@@ -1,0 +1,200 @@
+/*Navbar*/
+.link {
+    margin-right: -20px;
+}
+
+.twit {
+    margin-right: -30px;
+}
+
+.facebook {
+    margin-right: -30px;
+}
+
+.link:hover,
+.twit:hover,
+.facebook:hover,
+.ig:hover {
+    -webkit-transform: scale(1.1);
+    background: #31708f;
+}
+
+.nav-link,
+.navbar-brand {
+    margin-top: 10px;
+    font-family: Poppins;
+}
+
+/*Last navbar*/
+
+/*Jumbo Satu*/
+.jumbo-satu {
+	margin-top: 60px;
+    font-family: Poppins;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.tombol-jumbo-satu {
+    font-size: 14px;
+}
+
+.display-jumbo {
+    margin-top: 10px;
+    color: white;
+    font-size: 45px;
+}
+
+.lead-jumbo {
+    color: white;
+    font-size: 18px;
+}
+
+.tombol-jumbo-satu {
+    margin-top: 40px;
+    background-color: #65B2BE;
+    color: white;
+    border-color: white;
+}
+
+.tombol-jumbo-satu:hover {
+    -webkit-transform: scale(1.1);
+    background: white;
+    color: #65B2BE;
+    border-color: #65B2BE;
+}
+
+/*Last Jumbo Satu*/
+.jumbo-dua{
+	font-family: Poppins;
+	background-image: url(../image/bg-jumbo-dua.png);
+	background-repeat: no-repeat;
+	margin-top: -30px;
+	height: 800px;
+
+}
+
+.lead-dua{
+	font-size: 15px;
+}
+/*Jumbo Dua*/
+
+/*Panel*/
+.info-panel{
+	box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+	border-radius: 12px;
+	margin-top: -550px;
+	background-color: white;
+	padding: 30px;
+}
+
+.info-panel img {
+	width: 80px;
+	height: 80px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.info-panel svg:hover{
+	 -webkit-transform: scale(1.1);
+}
+
+.info-panel h4 {
+	color: #00A8FF;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+.info-panel p{
+
+	font-size: 15px;
+	color: #555555;
+	margin-top: -5px;
+	font-weight: 200;
+}
+/*Panel Dua*/
+
+/*Jumbo Tiga*/
+.jumbo-tiga{
+	margin-top: 20px;
+	font-family: Poppins;
+}
+/*Last Jumbo Tiga*/
+
+/*Jumbo Empat*/
+.jumbo-empat{
+	margin-top: -30px;
+	font-family: Poppins;
+	background-image: url(../image/bg-jumbo-empat.png);
+	height: 800px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*Jumbo Empat*/
+
+/*Footer*/
+.footer{
+max-height: 20px;
+margin-bottom: -20px;
+margin-top: -40px;
+}
+.copy
+{
+	margin-top: -40px;
+}
+/*Footer*/
+
+/*Animasi*/
+    .display-4, .lead-dua{
+    opacity: 0;
+    transform: translate(-50px, 0);
+    transition: 1s;
+    }
+
+   .display-4.muncul, .lead-dua.muncul{
+    opacity: 1;
+    transform: translate(0,0);    
+    }
+    
+ .info-panel .col-lg-4{
+    opacity   : 0;
+    transform : translate(0, -40px);
+    transition: .30s;
+     }
+
+     .info-panel .col-lg-4.muncul{
+    opacity: 1;
+    transform: translate(0,0);
+     }
+/*Last Animasi*/
+
+/*BREAK POINT*/
+
+@media (max-width: 576px) { 
+
+	.navbar-brand {
+		margin-left: -8px;
+		font-size: 15px;
+}
+.info-panel{
+	margin-top: -400px;
+}
+.display-4{
+	font-size: 30px;
+}
+
+.copy
+{
+	margin-top: -20px;
+}
+.footer{
+max-height: 100px;
+
+}
+.icon-footer{
+    margin-top:-20px;
+}
+}
